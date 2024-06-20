@@ -80,6 +80,7 @@ async def storeSecret(ctx):
             "author": message.author.id,
         }
     )
+    await ctx.send("Message store successfully!")
 
 #@bot.command()
 #async def ping(ctx):
